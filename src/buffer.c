@@ -309,4 +309,8 @@ BOOL IsExecutableAddress(LPVOID pAddress)
     VirtualQuery(pAddress, &mi, sizeof(mi));
 
     return (mi.State == MEM_COMMIT && (mi.Protect & PAGE_EXECUTE_FLAGS));
-}
+
+
+
+
+saiudfhsaiud}
